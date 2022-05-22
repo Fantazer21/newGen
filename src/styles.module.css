@@ -1,0 +1,134 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid white;
+    min-height: 260px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.title {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.start {
+    margin-right: 5px;
+}
+
+.end {
+    margin-left: 5px;
+}
+
+.price {
+    display: flex;
+}
+
+.input {
+    border-radius: 10px;
+    margin: 1px 20px;
+    width: 100px;
+}
+
+.button {
+
+}
+
+.dataFiltered {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.dataFilteredAttribute {
+    display: flex;
+}
+
+.hotelName {
+    margin-top: 20px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.buttonUnbooked {
+    cursor: pointer;
+    width: 179px;
+    height: 40px;
+    border-radius: 12px;
+    opacity: 60%;
+    background-color: #6A53F5;
+}
+.buttonBooked {
+    width: 179px;
+    height: 40px;
+    border-radius: 12px;
+    opacity: 60%;
+    background-color: #00BB6D;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.priceAttribute {
+    width: 74px;
+    top: 999px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: right;
+    color: #3A3A3A;
+}
+
+.doubleInput {
+    margin-top: 20px;
+}
+.buttonFilter {
+    width: 324px;
+    height: 56px;
+    left: 26px;
+    top: 608px;
+    background: #6A53F5;
+    border-radius: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.buttonFilter:hover {
+    opacity: .7
+}
+.buttonFilter.disabled {
+    width: 324px;
+    height: 56px;
+    left: 26px;
+    top: 608px;
+    background: #6A53F5;
+    border-radius: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.clearFilter {
+    width: 324px;
+    height: 56px;
+    left: 26px;
+    top: 608px;
+    border-radius: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,94 @@
+.range-slider {
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    height: 54px;
+    float: left;
+    text-align: center;
+}
+
+.range-slider input[type=range] {
+    -webkit-appearance: none;
+    height: 20px;
+    pointer-events: none;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 100%;
+    border-radius: 14px;
+    background: none;
+}
+
+.range-slider input[type=range]:focus, .range-slider input[type=range]:active {
+    outline: none;
+}
+
+.range-slider input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    box-sizing: content-box;
+    width: 18px;
+    height: 18px;
+    border: none;
+    pointer-events: auto;
+    border-radius: 14px;
+    background-color: #435179;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.range-slider input[type=range]::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border: none;
+    pointer-events: auto;
+    border-radius: 14px;
+    background-color: #435179;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.range-slider input[type=range]::-ms-thumb {
+    width: 20px;
+    height: 20px;
+    border: none;
+    pointer-events: auto;
+    border-radius: 14px;
+    background-color: #000C2F;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+
+.range-slider input[type=range]::-moz-range-track {
+    -moz-appearance: none;
+    background: none;
+}
+
+.range-slider input[type=range]::-ms-track {
+    /* should come after -webkit- */
+    border-color: transparent;
+    color: transparent;
+    background: transparent;
+    /* again your track styles */
+}
+
+.range-slider input[type=range]::-ms-fill-upper {
+    background: transparent;
+}
+
+.range-slider input[type=range]::-ms-fill-lower {
+    background: transparent;
+}
+
+.range-slider input[type=range]::-ms-tooltip {
+    display: none;
+}
+
+.sliderArea {
+    width: 300px;
+    margin: 0 auto;
+}
